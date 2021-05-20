@@ -117,6 +117,7 @@ export default {
   server: { port: process.env.PORT || 8443 },
   router: {
     middleware: 'embed',
+    base: '/embeddable_mode',
   },
   components: {
     dirs: [
@@ -149,6 +150,7 @@ export default {
   styleResources: {
     scss: ['./styles/utilities/all.scss'],
   },
+  target: 'static',
   modules: ['@nuxtjs/sentry', '@nuxtjs/sitemap', 'nuxt-ssr-cache', 'nuxt-i18n'],
   i18n: {
     locales: [{ code: 'en', iso: 'en', name: 'English', file: 'en.json' }],
