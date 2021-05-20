@@ -151,7 +151,7 @@ export default {
     scss: ['./styles/utilities/all.scss'],
   },
   target: 'static',
-  modules: ['@nuxtjs/sentry', '@nuxtjs/sitemap', 'nuxt-ssr-cache', 'nuxt-i18n'],
+  modules: ['@nuxtjs/sentry', 'nuxt-ssr-cache', 'nuxt-i18n'],
   i18n: {
     locales: [{ code: 'en', iso: 'en', name: 'English', file: 'en.json' }],
     lazy: true,

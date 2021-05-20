@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/meta-search", {data:[{}],fetch:{},mutations:[]});
